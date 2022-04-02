@@ -113,4 +113,5 @@ def main():
     query = sys.argv
     task_manager(query)
 
-main()
+if __name__ == "__main__":
+    main()
